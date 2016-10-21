@@ -1,7 +1,7 @@
 //an object from the webpack plugin from package.json devDependencies
 var HtmlWebpackPlugin = require("html-webpack-plugin")
 //this is a new instance of the HtmlWebpackPlugin object
-var HtmlWebpackPluginConfig = new HtmlWebpackPluginConfig({
+var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 	//config options for the new instance
 	template: __dirname + "/app/index.html",
 	//filename
@@ -42,5 +42,5 @@ What is happening?
 -It will output all of this code to the '/dist' under the filename index_bundle.js 
 -Then plugins will run, taking the index.html file, injecting it into the same directory
 - The index.html file will be able to reference the index_bundle.js file that was made by webpack
--The two will work together to configure the file and everyone is happy
+-The two will work together so we can see stuff on the webpage....WOHOO!!
 */
