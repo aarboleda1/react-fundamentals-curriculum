@@ -1,6 +1,7 @@
 //get the element that was made in the index.html file
 import React from 'react';
-import {render} from 'react-dom';
+import { Router, Route, Link, hashHistory } from 'react-router';
+import {render} from 'react-dom'
 
 class HelloWorld extends React.Component {
 	render() {
@@ -16,10 +17,11 @@ class HelloWorld extends React.Component {
 //   <h1>Hiiiii</h1>
 // );
 
-render(
-	<HelloWorld />,
-	document.getElementById('app')
-);
+render((
+	<Router history={hashHistory}>
+	  <Route path="/" component={app} />
+	</Router>
+), document.getElementById('app'));
 
 
 export default HelloWorld
