@@ -1,27 +1,27 @@
 //get the element that was made in the index.html file
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import {render} from 'react-dom';
 
-// class HelloWorld extends React.Component {
-// 	render() {
-// 		return(
-// 			<h1>Hello World</h1>
-// 		)
-// 	}
-// }
+class HelloWorld extends React.Component {
+	render() {
+		return(
+			<h1>Hello World</h1>
+		)
+	}
+}
 
 
 //functional component
-const HelloWorld = props => (
-  <h1>Hello World</h1>
-);
+// const HelloWorld = props => (
+//   <h1>Hiiiii</h1>
+// );
 
-ReactDOM.render(
+render(
 	<HelloWorld />,
 	document.getElementById('app')
 );
 
 
-
+export default HelloWorld
 
 // ReactDOM.render(<HelloWorld />, document.getElementById('app'));
