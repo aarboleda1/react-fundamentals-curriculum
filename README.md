@@ -17,7 +17,7 @@ The goal here is to give you just enough guidance for you to struggle without dr
 ##Step 1: Set up a HelloWorld Component
 Before I ever start a React app I always create a HelloWorld component just to make sure that I've tied everything together properly. I don't expect you to have all this memorized, but do your best in using proper documentation to wire up everything. If you do get stuck you can refer to the 'step1' branch.
 
- * Fork this repository then clone your fork
+DONE * Fork this repository then clone your fork
  * npm install the dependencies you'll need
  * Create and configure your .babelrc file
  * Create and configure your webpack.config.js file
@@ -28,14 +28,14 @@ Before I ever start a React app I always create a HelloWorld component just to m
 ##Step 2: Let React Router handle Routing
 The next step I take is setting up React Router to handle my routing. Before I jump into any real coding, again, I make sure everything is wired up correctly.
 
- * Move your HelloWorld component to a Main.js file (I have mine located in a containers folder)
- * Set up your route configuration file to activate the Main component whenever a user hits the index '/' path of your app.
- * Now instead of rendering <HelloWorld /> to the DOM, render your routes configuration.
+ DONE* Move your HelloWorld component to a Main.js file (I have mine located in a containers folder)
+ DONE* Set up your route configuration file to activate the Main component whenever a user hits the index '/' path of your app.
+ DONE* Now instead of rendering <HelloWorld /> to the DOM, render your routes configuration.
 
 ## Step 3: Add UI for Home
 
- * Create a Home component and set it to the IndexRoute in your route configuration.
- * At this point when you go to localhost:8080 you should see any UI the Main component spits out as well as any UI the Home component spits out.
+ DONE * Create a Home component and set it to the IndexRoute in your route configuration.
+ DONE * At this point when you go to localhost:8080 you should see any UI the Main component spits out as well as any UI the Home component spits out.
  * Add the full page background image to the Home component as well as the input field and button. At this point, my app looks like this.
 
 <img src="http://www.reactjsprogram.com/images/home-ui.png" width="400">
