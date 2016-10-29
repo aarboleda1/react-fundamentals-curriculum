@@ -22,7 +22,6 @@ function InputField (props) {
       value={props.city} />
   )
 }
-
 function getStyles (props) {
   return {
     display: 'flex',

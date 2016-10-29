@@ -10,10 +10,13 @@ var styles = {
 
 var Main = React.createClass({
 	render: function () {
+	  return( 
 		<div style={styles.container}>
-			<h1>Main.js header</h1>
+			<h1>GetMyWeather</h1>
 			{this.props.children}
 		</div>
+	  )	
+	  
 	}
 })
 
