@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/aarboleda1/react-fundamentals-curriculum#readme",
   "dependencies": {
+    "axios": "^0.15.2",
     "raven": "^0.12.1",
     "raven-js": "^3.7.0",
     "react": "^15.3.2",

@@ -1,6 +1,10 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 
+// function puke(obj) {
+//  return <pre>{JSON.stringify(obj, null, ' ')}</pre>
+// }
+
 function Button (props) {
   return (
     <button type='button'
@@ -17,7 +21,7 @@ function InputField (props) {
     <input
       className='form-control'
       onChange={props.onUpdateCity}
-      placeholder='St. George, Utah'
+      placeholder='San Francisco, CA'
       type='text'
       value={props.city} />
   )
